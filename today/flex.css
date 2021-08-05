@@ -1,0 +1,28 @@
+
+#item1{
+    padding: 20px;
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+}
+#item2{
+    padding: 20px;
+    margin: 10px;
+    background-color: green;
+}
+#item3{
+    padding: 20px;
+    margin: 10px;
+    background-color: indigo;
+}
+#item4{
+    padding: 20px;
+    margin: 10px;
+    background-color: deeppink;
+}
+@media (max-width: 320px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
